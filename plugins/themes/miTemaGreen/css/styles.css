@@ -1,0 +1,182 @@
+/* styles.css - Estilo moderno para revista académica OJS */
+
+/* Estilos generales */
+body {
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Cabecera */
+  #header {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: white;
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid #e74c3c;
+  }
+  
+  #header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  /* Navegación */
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+  }
+  
+  .navbar a {
+    color: #2c3e50;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #e74c3c;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+  }
+  
+  /* Secciones destacadas */
+  .highlight-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid #3498db;
+  }
+  
+  .highlight-section h2 {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin-top: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* Botones */
+  .btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-submit {
+    background-color: #e74c3c;
+  }
+  
+  .btn-submit:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Últimas publicaciones */
+  .publication-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .publication-item {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .publication-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-left: 3px solid #e74c3c;
+  }
+  
+  .publication-item a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+  }
+  
+  .publication-item a:hover {
+    color: #e74c3c;
+  }
+  
+  /* Información para lectores */
+  .reader-info {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .info-item {
+    padding: 0.5rem;
+  }
+  
+  .info-item strong {
+    color: #3498db;
+    display: block;
+    margin-bottom: 0.3rem;
+  }
+  
+  /* Pie de página */
+  #footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .info-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .navbar {
+      text-align: center;
+    }
+    
+    #header h1 {
+      font-size: 1.8rem;
+    }
+  }

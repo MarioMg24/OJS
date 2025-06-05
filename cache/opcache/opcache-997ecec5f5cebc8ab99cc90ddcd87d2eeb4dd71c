@@ -1,0 +1,13 @@
+<?php $exp = 1775705020; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.generic.docxViewer.displayName' => 'Plugin de Visor de DOCX',
+      'plugins.generic.docxViewer.description' => 'Permite visualizar archivos DOCX directamente desde el servidor local.',
+      'plugins.generic.docxViewer.button.viewDocx' => 'Visualizar DOCX',
+    ),
+  ),
+);

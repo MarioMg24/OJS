@@ -1,4 +1,4 @@
-<?php $exp = 1746503562; $val = array (
+<?php $exp = 1751654884; $val = array (
   'ar' => 
   \PKP\i18n\LocaleMetadata::__set_state(array(
      '_parsedLocale' => NULL,

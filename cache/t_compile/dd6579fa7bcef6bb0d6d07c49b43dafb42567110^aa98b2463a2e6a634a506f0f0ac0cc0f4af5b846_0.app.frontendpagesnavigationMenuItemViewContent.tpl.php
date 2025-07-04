@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-06-02 05:31:27
+/* Smarty version 4.3.1, created on 2025-06-09 02:13:54
   from 'app:frontendpagesnavigationMenuItemViewContent.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_683d372f2f86b2_59129333',
+  'unifunc' => 'content_68464362208884_94592114',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/components/footer.tpl' => 1,
   ),
 ),false)) {
-function content_683d372f2f86b2_59129333 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68464362208884_94592114 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("app:frontend/components/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('pageTitleTranslated'=>$_smarty_tpl->tpl_vars['title']->value), 0, false);
 ?>
 

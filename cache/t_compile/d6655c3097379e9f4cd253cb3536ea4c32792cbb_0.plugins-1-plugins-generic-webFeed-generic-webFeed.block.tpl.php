@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-05-06 15:57:06
+/* Smarty version 4.3.1, created on 2025-06-05 16:17:46
   from 'plugins-1-plugins-generic-webFeed-generic-webFeed:block.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_681a3152d4a2b8_03888110',
+  'unifunc' => 'content_6841c32a702c03_43459738',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_681a3152d4a2b8_03888110 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6841c32a702c03_43459738 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="pkp_block block_web_feed">
 	<h2 class="title"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"plugins.generic.webfeed.blockTitle"),$_smarty_tpl ) );?>
 </h2>

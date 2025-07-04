@@ -2065,6 +2065,41 @@
 			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP.</description>
 			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada à Galeria de Plugins da PKP.</description>
 		</release>
+		<release date="2025-06-06" version="2.8.3.0" md5="10cf6422f2f9abfddfc908f82a1ab627">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v2.8.3/dataverse.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">Adds default additional instructions to the plugin</description>
+			<description locale="es_ES">Agrega instrucciones adicionales predeterminadas al módulo</description>
+			<description locale="pt_BR">Adiciona instruções adicionais padrão ao plugin</description>
+		</release>
 		<release date="2025-05-23" version="3.3.0.0" md5="50610e5351ae400820ef689f4c10c113">
 			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.3.0.0/dataverse.tar.gz</package>
 			<compatibility application="ojs2">
@@ -2078,6 +2113,19 @@
 			<description locale="en_US">This is the first release of this plugin to be sent to PKP Plugin Gallery.</description>
 			<description locale="es_ES">Esta es la primera versión de este módulo que se envía a la Galería de módulos de PKP.</description>
 			<description locale="pt_BR">Esta é a primeira versão deste plugin a ser enviada à Galeria de Plugins da PKP.</description>
+		</release>
+		<release date="2025-06-06" version="3.3.2.0" md5="0cd035eb70bca2d6c193e9500608db2a">
+			<package>https://github.com/lepidus/dataversePlugin/releases/download/v3.3.2/dataverse.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<compatibility application="ops">
+				<version>~3.4.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en">Adds default additional instructions to the plugin</description>
+			<description locale="es">Agrega instrucciones adicionales predeterminadas al módulo</description>
+			<description locale="pt_BR">Adiciona instruções adicionais padrão ao plugin</description>
 		</release>
 	</plugin>
 	<plugin category="generic" product="piwik">
@@ -10376,14 +10424,7 @@
 		<release date="2024-11-26" version="1.3.4.2" md5="3040e43abee94f09941c95c726709eeb">
 			<package>https://github.com/clarivate/wos_reviewer_recognition_plugin_ojs_3/releases/download/v1.3.4.2/webOfScience_1_3_4_2.tar.gz</package>
 			<compatibility application="ojs2">
-				<version>3.4.0.1</version>
-				<version>3.4.0.2</version>
-				<version>3.4.0.3</version>
-				<version>3.4.0.4</version>
-				<version>3.4.0.5</version>
-				<version>3.4.0.6</version>
-				<version>3.4.0.7</version>
-				<version>3.4.0.8</version>
+				<version>~3.4.0.0</version>
 			</compatibility>
 			<certification type="reviewed"/>
 			<description>Updated link to Terms and Conditions, included support for 3.4.0.7</description>
@@ -13608,6 +13649,27 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description locale="en_US">This version corrects the name of the Publisher to get it from the OJS Publisher and not from the name of the journal.</description>
 			<description locale="pt_BR">Essa versão corrige nome da Editora para obter a partir da Editora do OJS e não a partir do nome da revista.</description>
 			<description locale="es_ES">Esta versión corrige el nombre de la editorial para que se obtenga de la editorial OJS y no del nombre de la revista.</description>
+		</release>
+		<release date="2025-06-09" version="1.5.0.1" md5="1e0d425705d849c6862c7e809a3421bf">
+			<package>https://github.com/lepidus/carinianaPreservation/releases/download/v1.5.0.1/carinianaPreservation.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description locale="en_US">New feature: Preservation data update in the Cariniana Network. The plugin now sends only updated XML after the first submission and automatically monitors for differences through scheduled tasks, sending update emails to the Cariniana Network when changes are detected. Scheduled tasks are automatically activated by the Acron plugin.</description>
+			<description locale="pt_BR">Nova funcionalidade: Atualização de dados preservados na Rede Cariniana. Envio de dados para preservação agora envia apenas o XML atualizado após o primeiro envio. Atualizações automáticas por meio de tarefa agendada monitoram diferenças e enviam email de atualização para a Rede Cariniana. Tarefas agendadas são ativadas automaticamente pelo plugin Acron.</description>
+			<description locale="es_ES">Nueva funcionalidad: Actualización de datos preservados en la Red Cariniana. El envío de datos para preservación ahora envía solo el XML actualizado después del primer envío. Las actualizaciones automáticas a través de tareas programadas monitorean diferencias y envían correos electrónicos de actualización a la Red Cariniana. Las tareas programadas se activan automáticamente por el plugin Acron.</description>
 		</release>
 	</plugin>
 </plugins>

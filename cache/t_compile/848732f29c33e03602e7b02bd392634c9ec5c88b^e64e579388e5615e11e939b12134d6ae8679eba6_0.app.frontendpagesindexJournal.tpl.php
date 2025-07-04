@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.1, created on 2025-06-03 04:11:02
+/* Smarty version 4.3.1, created on 2025-07-04 17:34:55
   from 'app:frontendpagesindexJournal.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.1',
-  'unifunc' => 'content_683e75d660cf24_60305031',
+  'unifunc' => 'content_686810bf962cc0_03805894',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e64e579388e5615e11e939b12134d6ae8679eba6' => 
     array (
       0 => 'app:frontendpagesindexJournal.tpl',
-      1 => 1748923859,
+      1 => 1751650490,
       2 => 'app',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/components/footer.tpl' => 1,
   ),
 ),false)) {
-function content_683e75d660cf24_60305031 (Smarty_Internal_Template $_smarty_tpl) {
+function content_686810bf962cc0_03805894 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\ojs2\\lib\\pkp\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.count.php','function'=>'smarty_modifier_count',),));
 $_smarty_tpl->_subTemplateRender("app:frontend/components/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('pageTitleTranslated'=>$_smarty_tpl->tpl_vars['currentJournal']->value->getLocalizedName()), 0, false);
 ?>
@@ -42,6 +42,55 @@ $_smarty_tpl->_subTemplateRender("app:frontend/components/header.tpl", $_smarty_
 ">
 		</div>
 	<?php }?>
+
+		<div class="homepage-search" style="margin: 30px auto; text-align: center;">
+		<form method="get" action="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['url'][0], array( array('router'=>(defined('ROUTE_PAGE') ? constant('ROUTE_PAGE') : null),'page'=>"search"),$_smarty_tpl ) );?>
+" role="search" class="custom-search-form" style="display: inline-flex; align-items: center; max-width: 600px; width: 100%;">
+			<input name="query" type="text" aria-label="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"common.search"),$_smarty_tpl ) );?>
+" placeholder="Buscar artículos..." class="custom-search-input" />
+			<button type="submit" class="custom-search-button" aria-label="Buscar">
+				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+					<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85zm-5.242.656a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/>
+				</svg>
+			</button>
+		</form>
+	</div>
+
+	<style>
+		.custom-search-input {
+			padding: 12px 18px;
+			border: 1.5px solid #c4c4c4;
+			border-radius: 40px 0 0 40px;
+			font-size: 16px;
+			width: 100%;
+			max-width: 500px;
+			background-color: #fdfdfd;
+			transition: all 0.3s ease;
+			box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+		}
+
+		.custom-search-input:focus {
+			border-color: #2e6a45;
+			box-shadow: 0 0 6px rgba(46,106,69,0.2);
+		}
+
+		.custom-search-button {
+			padding: 12px 20px;
+			border: 1.5px solid #2e6a45;
+			border-left: none;
+			background-color: #2e6a45;
+			color: white;
+			border-radius: 0 40px 40px 0;
+			font-size: 16px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+
+		.custom-search-button:hover {
+			background-color: #1c4a34;
+		}
+	</style>
+
 
 	<?php if ($_smarty_tpl->tpl_vars['journalDescription']->value) {?>
 		<div class="journal-description">

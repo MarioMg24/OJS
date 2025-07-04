@@ -30,6 +30,54 @@
 		</div>
 	{/if}
 
+	{* Buscador estilizado debajo de la imagen *}
+	<div class="homepage-search" style="margin: 30px auto; text-align: center;">
+		<form method="get" action="{url router=$smarty.const.ROUTE_PAGE page="search"}" role="search" class="custom-search-form" style="display: inline-flex; align-items: center; max-width: 600px; width: 100%;">
+			<input name="query" type="text" aria-label="{translate key="common.search"}" placeholder="Buscar artículos..." class="custom-search-input" />
+			<button type="submit" class="custom-search-button" aria-label="Buscar">
+				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+					<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85zm-5.242.656a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/>
+				</svg>
+			</button>
+		</form>
+	</div>
+
+	<style>
+		.custom-search-input {
+			padding: 12px 18px;
+			border: 1.5px solid #c4c4c4;
+			border-radius: 40px 0 0 40px;
+			font-size: 16px;
+			width: 100%;
+			max-width: 500px;
+			background-color: #fdfdfd;
+			transition: all 0.3s ease;
+			box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+		}
+
+		.custom-search-input:focus {
+			border-color: #2e6a45;
+			box-shadow: 0 0 6px rgba(46,106,69,0.2);
+		}
+
+		.custom-search-button {
+			padding: 12px 20px;
+			border: 1.5px solid #2e6a45;
+			border-left: none;
+			background-color: #2e6a45;
+			color: white;
+			border-radius: 0 40px 40px 0;
+			font-size: 16px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+
+		.custom-search-button:hover {
+			background-color: #1c4a34;
+		}
+	</style>
+
+
 	{if $journalDescription}
 		<div class="journal-description">
 			{$journalDescription}
